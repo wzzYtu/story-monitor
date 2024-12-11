@@ -1,0 +1,32 @@
+# database config
+postgres:
+  user: "database_user"
+  password: "database_password"
+  name: "database_name"
+  host: "database_host_ip"
+  port: "database_host_port"
+
+# story http rpc
+story:
+  httpRpc: "story_http_rpc"
+
+alert:
+  operatorAddr: "storyvaloperxxxxx,storyvaloperyyyy"    # The address starts with "storyvaloper"
+  timeInterval: 600  # Monitoring time interval. 600 means the cosmos-monitor runs every 600 seconds
+  blockInterval: 100 # Used to calculate the recent signature rate. 100 means to count the signatures rate of the last 100 blocks
+  proportion: 0.05 # Signature rate
+  startingBlockHeight: 1000000 # The starting block height of the monitor program
+
+mail:
+  host: "mail_host"
+  port: "mail_port"
+  username: "mail_username"
+  password: "mail_password"
+  sender: "sender_mail_address"
+  receiver1: "receiver1_mail_address" # Receive all alert emails
+  receiver2: "receiver2_mail_address" # Only receive emergency alert emails, like jailed/inactive, etc.
+
+log:
+  path: "log_save_location"
+  level: "log_level" # info, error
+  eventlogpath: "event_log_save_location"

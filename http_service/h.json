@@ -1,0 +1,58 @@
+{
+  jsonrpc: "2.0",
+  id: -1,
+  result: {
+    signed_header: {
+      header: {
+        version: {
+          block: "11"
+        },
+        chain_id: "odyssey-0",
+        height: "1029701",
+        time: "2024-12-04T08:45:56.423104075Z",
+        last_block_id: {
+          hash: "1B8C1FFB060F21BD0A91E665F8BB2BF06F1BD124988F7F06220AD5AB8B40D10F",
+          parts: {
+            total: 1,
+            hash: "E30CE1874CA1A4C4BFA7003C7D5D39A19C94B5D0451856541BFE1E64AB75B6DB"
+          }
+        },
+        last_commit_hash: "5B122ED7C6B78A79D3823405464FEC8194D90B72221B5E8DEA862831475B050B",
+        data_hash: "7658D5B7E87EFF0F2FACA8462C75523B26EE27CCCFBBDA71B25D752DE184DDE6",
+        validators_hash: "89E6D0C1B1A5FEF019F2032CF0CBCC59CEB566B7810763CFB0192A208943BB06",
+        next_validators_hash: "89E6D0C1B1A5FEF019F2032CF0CBCC59CEB566B7810763CFB0192A208943BB06",
+        consensus_hash: "FFDA397555868142F34E699C9A0BCCAAC26032A1DB0594933147130A434C3D00",
+        app_hash: "EDF3EEA9A02FD23D9CEA1B57CDA8148554F965B6F7E5537525B3F217055F77CC",
+        last_results_hash: "C5732BEC6613D580FBCCD8DA7228965C2FD757D61BB77EF7F152445C731102F9",
+        evidence_hash: "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        proposer_address: "8AF7AEBEB918E241761945ABD401004A16B7D4E4"
+      },
+      commit: {
+        height: "1029701",
+        round: 0,
+        block_id: {
+          hash: "20EBD588C19EA53B066FEAD83960B9D0EC0B8D06EB60BE6D1223B5BFB6CFFE6A",
+          parts: {
+            total: 1,
+            hash: "F7500A58614C845E3BEC303F45F46D298879452F2E4EAD54430A09604646E966"
+          }
+        },
+        signatures: [
+          {
+            block_id_flag: 2,
+            validator_address: "77CFE8DCCDB5EF2EFD67D091B206E917D6AB7E25",
+            timestamp: "2024-12-04T08:46:00.011585284Z",
+            signature: "HWb0Y3iNXzGWBDZ4IgFEgKUi1k1w/Fvf92nzwxoqbyQOyIX4BwGudSuTK9K2Vju8Zgvin+TaYDU1js2LuvOl0g=="
+          },
+          {
+            block_id_flag: 2,
+            validator_address: "B095847069BA328CE8409D8EC7702E10312191ED",
+            timestamp: "2024-12-04T08:46:00.006820183Z",
+            signature: "pnAiRoDyi6ClSN2vBGHbzSeKvIGXbEG3RwVJkNGrDv1I3NMiwN8adY/JOe2pl3AkdxPDZQTaf6Y9a90aAaWwuw=="
+          }
+          ]
+      }
+    },
+    canonical: true
+  }
+}
